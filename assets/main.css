@@ -1,0 +1,109 @@
+.home {
+  z-index: -1;
+  /* Set rules to fill background */
+  min-height: 200px;
+  min-width: 100%;
+	
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: auto;
+	
+  /* Set up positioning */
+  position: relative;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+@media (max-width: 1000px) 
+{body .home { position: fixed;
+}}
+.menu { 
+  position: relative;
+  z-index: 5;
+  max-width: 150px;
+  right: -1180px;
+bottom: -460px; }
+@media (max-width: 1000px) 
+{body .menu {   left: 330px;
+    max-width: 300px;
+    top: 2500px;
+}}
+.red {
+  position: relative;
+  left: -200px;
+  max-width: 500px;
+  bottom: 30px;
+}
+.red:hover {
+    color: rgba(255, 255, 255, 1);
+  box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
+}
+@media (max-width: 1000px) 
+{body .red { position: relative;
+    left: 150px;
+    max-width: 700px;
+    bottom: -400px;
+}}
+
+.purple {
+  position: relative;
+  left: -200px;
+  max-width: 500px;
+  bottom: 30px;
+}
+.purple:hover {
+    color: rgba(255, 255, 255, 1);
+  box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
+}
+@media (max-width: 1000px) 
+{body .purple { position: relative;
+    left: 150px;
+    max-width: 700px;
+    bottom: -400px;
+}}
+
+.yellow {
+    position: relative;
+    left: 960px;
+    max-width: 500px;
+    bottom: 407px;
+}
+@media (max-width: 1000px) 
+{body .yellow { position: relative;
+    left: 150px;
+    max-width: 700px;
+    bottom: -400px;
+}}
+.yellow:hover {
+    color: rgba(255, 255, 255, 1);
+  box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
+}
+.car {
+  left: 220px;
+  position: relative;
+top: -405px;
+  max-width: 1000px;
+}
+@media (max-width: 1000px) 
+{body .car { visibility: hidden;
+}}
+@media (max-width: 1000px) 
+{body .car{ position: relative;
+    left: 150px;
+    max-width: 700px;
+    bottom: -400px;
+}}
+
+.submit {
+    position: relative;
+  z-index: 5;
+  max-width: 150px;
+bottom: 330px;
+left: -360px; }
+@media (max-width: 1000px) 
+{body .submit { 
+left: 340px;
+    max-width: 300px;
+    top: 110px;
+}}
+}
